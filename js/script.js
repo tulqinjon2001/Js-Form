@@ -1,6 +1,6 @@
 /* <-- Second Homework --> */
 var elForm = document.querySelector(".form-site");
-var elFirstNmae = elForm.querySelector(".input1-site").trim();
+var elFirstNmae = elForm.querySelector("firstname").trim();
 var elMoney = elForm.querySelector(".input2-site").trim();
 var TRAVEL_MONEY = 2000;
 
