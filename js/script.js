@@ -1,7 +1,7 @@
 /* <-- Second Homework --> */
 var elForm = document.querySelector(".form-site");
-var elFirstNmae = elForm.querySelector("firstname").trim();
-var elMoney = elForm.querySelector(".input2-site").trim();
+var elFirstNmae = elForm.querySelector("firstname");
+var elMoney = elForm.querySelector(".input2-site");
 var TRAVEL_MONEY = 2000;
 
 var elConvert = document.querySelector(".convert");
@@ -24,8 +24,8 @@ elForm.addEventListener("submit", function(evt) {
 /* <-- Second Homework --> */
 
 var elFormIntro = document.querySelector(".form-intro");
-var elPassagerName = elFormIntro.querySelector(".input1-intro").trim();
-var elPassagerAge = elFormIntro.querySelector(".input2-intro").trim();
+var elPassagerName = elFormIntro.querySelector(".input1-intro");
+var elPassagerAge = elFormIntro.querySelector(".input2-intro");
 
 var elPassagertext = document.querySelector(".intro-text");
 
